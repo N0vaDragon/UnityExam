@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 public class ChangeScenes : MonoBehaviour
 {
 
-    public void GoToGameScene()
+    public void GoToLoreScene()
     {
-        SceneManager.LoadScene("GameScene_v01");
+        SceneManager.LoadScene("LoreScene_v01");
     }
     
 }
